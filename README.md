@@ -1,6 +1,6 @@
 
 
-# MovieLens Advanced Recommendation System
+# MovieLens Recommendation System
 
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/streamlit-%E2%9C%94%EF%B8%8F-brightgreen)](https://streamlit.io/)
