@@ -106,12 +106,30 @@ streamlit run app.py
 
 ## Results
 
+- **Content-Based Filtering:**
+  - Precision@5: 0.0
+  - Recall@5: 0.0
+- **User-Based Collaborative Filtering:**
+  - Precision@5: 0.6000
+  - Recall@5: 0.0154
+  - RMSE: 0.9407
+  - MAE: 0.7323
 - **SVD-based Collaborative Filtering:**
-  - Precision@5: ~80%
-  - RMSE: ~0.94
-- **Hybrid Ensemble (XGBoost + SVD):**
-  - Precision@10: ~90%
-  - RMSE: ~0.80
+  - Precision@5: 0.8000
+  - Recall@5: 0.0205
+  - RMSE: 1.9754
+  - MAE: 1.5697
+- **Hybrid Model (Collaborative + Content-Based):**
+  - Precision@5: 0.8000
+  - Recall@5: 0.0205
+- **Improved Hybrid Model:**
+  - Precision@10: 0.9000
+  - Recall@10: 0.0462
+  - MAP@10: 0.6082
+  - NDCG@10: 0.8202
+- **Ensemble (XGBoost, LightGBM, CatBoost):**
+  - XGBoost RMSE: 0.7995
+  - (See notebook for additional ensemble metrics)
 - **Business Impact:**
   - Demonstrated improvements in simulated click-through, conversion, and engagement rates
 - **Scalability:**
